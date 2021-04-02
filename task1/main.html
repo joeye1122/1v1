@@ -1,0 +1,20 @@
+{% autoescape true %}
+<html>
+<body>
+    <div>
+       <b>{{user_name}}</b>
+    </div>
+    <form method="post">
+        <div>
+        <label>select your option</label>
+        <select name="option">
+            <option value="name">change name</option>
+            <option value="password">change password</option>
+        </select>
+        <div><input type="submit" value="Submit"></div>
+        </div>    
+    
+    </form>
+</body>
+</html>
+{% endautoescape %}
